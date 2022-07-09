@@ -1,6 +1,6 @@
 {
   "name": "navigator-suit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that provides a layer of abstraction for more convenient use of the native javaScript navigator Object.",
   "main": "index.js",
   "scripts": {
