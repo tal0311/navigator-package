@@ -1,4 +1,4 @@
-export default {
+const myNavigator = {
   getProperties() {
     const msg = `*position will return a promise with location \n
     *battery will return a promise with an object {charging and battery level} \n
@@ -13,7 +13,7 @@ export default {
     `
     console.log(msg)
   },
-  battry() {
+  battery() {
     return navigator.getBattery().then((res) => {
       return {
         isCharging: res.charging,
@@ -42,3 +42,5 @@ export default {
     ctx.drawImage(video, 0, 0, canvas.clientHeight, canvas.clientWidth)
   },
 }
+
+export default myNavigator

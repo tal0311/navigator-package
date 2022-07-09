@@ -1,0 +1,26 @@
+{
+  "name": "navigator-suit",
+  "version": "1.0.0",
+  "description": "A package that provides a layer of abstraction for more convenient use of the native javaScript navigator Object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tal0311/navigator-package.git"
+  },
+  "keywords": [
+    "Navigator",
+    "Location",
+    "Position",
+    "Media",
+    "Battery."
+  ],
+  "author": "Tal Amit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tal0311/navigator-package/issues"
+  },
+  "homepage": "https://github.com/tal0311/navigator-package#readme"
+}
